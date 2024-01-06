@@ -1,3 +1,8 @@
+**YOUTUBE DATA HARVESTING AND WAREHOUSING**
+
+Welcome to the YouTube Data Harvesting & Warehousing project by Vandhitha. This project is designed to collect, store and analyse data from multiple YouTube channels, utilizing Python, MongoDB, SQL and Streamlit.
+
+
 **Overview of the Project**
 
    This project aims to utilize the Python programming language along with PostgreSQL, MongoDB, and Streamlit to create a comprehensive system for gathering and storing YouTube data. The primary objectives include the collection, storage, and analysis of YouTube data to facilitate tasks such as content recommendation, trend analysis, and gaining insights into user behavior. The integrated use of these technologies allows for a robust and scalable solution, enabling users to explore and make informed decisions based on the gathered YouTube data.
@@ -22,7 +27,6 @@
         Streamlit is utilized in this project to create interactive and customizable web-based data dashboards. Its purpose is to simplify the process of visualizing the YouTube data that has been harvested, enabling users to easily explore and interact with the information in a user-friendly and dynamic online interface.
 
    
-   
    **Required Libraries**
 
      > googleapiclient.discovery -> streamlit -> psycopg2 -> pymongo -> pandas
@@ -31,5 +35,22 @@
    **Packages requried for project to be installed**
 
       -> Google Api Client :pip3 install google-client-api or python3 -m pip install google-client-api -> Pandas : pip install pandas -> MongoDB : pip install pymongo -> PostgreSql : pip install psycopg2 -> Streamlit : pip install streamlit
+
+   **Project Features**
+   
+   1. Retrieve channel details including name, subscribers, and total video count.
+   2. Collect video information including video ID, title, views, likes, dislikes, and comments.
+   3. Store data in a MongoDB data lake.
+   4. Migrate channel data from the MongoDB to a SQL data warehouse.
+   5. Perform SQL queries to analyze and visualize data.
+   6. Streamlit-based user interface for ease of use.
+
+
+   **Project Evaluation**
+         The project is designed with maintainability, portability, and proper coding standards in mind. It includes a well-documented README file, and the code is modular for easy maintenance.
+
+   
+
+ 
 
       
